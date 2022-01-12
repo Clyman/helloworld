@@ -9,6 +9,6 @@ lint:
 	pylint --disable=R,C hello.py
 	
 test:
-	python -m pytest -vv --cov=hello hello.py
+	python -m pytest -vv --cov=hello helloworld.py
  
 all: install format lint test
